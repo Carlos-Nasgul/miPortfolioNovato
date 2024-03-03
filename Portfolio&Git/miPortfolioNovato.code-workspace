@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "miPortfolioNovato",
+			"path": ".."
+		},
+		{
+			"name": "imagenes",
+			"path": "../../../imagenes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "miPortfolioNovato"
+	}
+}
