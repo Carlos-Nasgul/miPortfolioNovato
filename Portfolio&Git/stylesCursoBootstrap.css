@@ -1,4 +1,5 @@
-* Barra de navegación*/
+/* Barra de navegación*/
+
 .navbar {
     padding: 2rem;
     background-color: #f5f6f7;
@@ -26,6 +27,10 @@ h1 {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
+}
+
+.hero-principal {
+    padding: 2;
 }
 
 .hero-principal h2 {
@@ -72,9 +77,6 @@ h1 {
 
 
 
-
-
-
 /* Responsive layout*/
 @media screen and (max-width: 767px) {
     .navbar-brand {
@@ -99,6 +101,12 @@ h1 {
     /* Animación para hacer que las imágenes aparezcan */
 }
 
+@media screen and (min-width: 700px) {
+    .rastro-contenedor {
+        max-width: 600px;
+    }
+}
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -119,3 +127,30 @@ h1 {
 to appear behind the rocket as if they were 
 its trail of smoke."
  */
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/*experiencia*/
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia .row div {
+    height: 250px;
+    background-color: blue;
+    border: 2px solid yellow;
+}
